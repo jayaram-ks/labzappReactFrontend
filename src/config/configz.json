@@ -1,0 +1,11 @@
+{
+  "SERVER_URL": "http://lab.com",
+  "THEME_COLORS": {
+    "PRIMARY": "#FF6611;",
+    "SECONDARY": "#fc3"
+  },
+  "API_TOKEN": "AdifYyWQMMbRYitYA4fuLCfGcxM6OnQUPMw2qGepAsgMxJ7kzyGxHZCPyePA",
+  "AUTH_TOKEN": "f61e0adf3a0140885ecf06a336de790f8fd32ee4",
+  "CUST_LAT":"8.9249",
+  "CUST_LONG": "76.7091"
+}

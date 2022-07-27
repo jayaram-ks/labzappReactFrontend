@@ -1,0 +1,128 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  
+}
+body {
+   
+   background-image: url('../public/assets/bg.jpg');
+   background-repeat: no-repeat ;
+   background-size: cover;
+  -webkit-font-smooting: antialiased;
+  -moz-osx-font-smoothing:grayscale;    
+}
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./fonts/Lato-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+* {
+  font-family: Lato;
+}
+*:not(i) {
+  font-family: Lato;
+}
+@font-face {
+  font-family: "Blippo";
+  src: url(./fonts/BlippoBlackRegular.otf) format("opentype");
+}
+
+.main-footer-txtz {
+  background-color: #ff6611;
+}
+.navbar {
+  background-color: #ff6611;
+}
+.def-bg-color{
+  background-color: #ff6611;
+}
+.nav-link {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.navbar-brand {
+  font-family: "Blippo";
+  color: white !important;
+  margin-left: 1em;
+  font-size: 1.9em;
+  padding: 0;
+}
+.lab-box {
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 18px;
+  border-radius: 1.2em;
+}
+.lab-img {
+  padding: 1em 2em 0em 2em;
+}
+.lab-title {
+  height: 2rem;
+  font-size: medium;
+  font-weight: bold;
+  overflow: hidden;
+  line-height: 1rem;
+}
+.lab-address {
+  height: 2rem;
+  font-size: small;
+  overflow: hidden;
+  line-height: 1rem;
+}
+.prim-colr {
+  color: #ff6611;
+}
+.light-black {
+  color: rgba(0, 0, 0, 0.7);
+}
+.txt-white {
+  color: white;
+}
+.main-slidr-img {
+  width: 900px;
+  height: 350px;
+}
+.btn-card {
+ font-weight: bold;
+ font-size: large;
+ background-color: #ff6611;
+ color: white;
+ border: white solid 3px;
+ padding-top:1em ;
+ padding-bottom:1em ;
+ border-radius: 1em;
+}
+.slick-slide img{
+  border-radius: 1rem;
+}
+.logo-cls img{
+  background-color: white;
+  height: 1.6em;
+  
+  border: solid 1px white;
+  border-radius: 7px;
+  padding: 3px;
+}
+.vp-height{
+  min-height: 75vh;
+}
+.home-btn-row
+{
+  max-width: 1100px;
+}
+.slick-next:before,.slick-prev:before
+{
+  color: #ff6611;
+  font-size: 2rem;
+}
+.slick-prev:before{
+  margin-left:-15px
+}
+
